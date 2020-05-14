@@ -3,3 +3,27 @@
 *{
     font-family: 'Rubik', sans-serif;
 }
+
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.main{
+    display: grid;
+    gap: 80px;
+}
+
+.intro__image{
+    background-color: #FFEB00;
+}
+
+.image__logo{
+    position: relative;
+    width: 320px;
+    margin-top: 20px;
+}
+
+.features__icon{
+    width: 60px;
+}
