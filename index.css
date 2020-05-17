@@ -4,20 +4,26 @@
     --lucky-point: #2b2f48;
     --cinza-50: #4F4F4F;
     --cinza-25: #8f8f8f;
+    --red: #FF1212;
+    --golden-yellow: #FFEB00;
+    --red-speech: #CC1111;
+    --marron: #7F0A0A;
 }
-/**/
+
 *{
     font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.intro__image{
+    background-color: var(--golden-yellow);
 }
 
 body{
     text-align: center;
     margin: 0;
-}
-
-.main{
-    display: grid;
-    gap: 80px;
+    
 }
 
 [class$="title"]{
@@ -27,20 +33,43 @@ body{
 [class$="description"], [class$="subtitle"]{
     color: var(--cinza-25)
 }
-
-/*-----INTRO-----*/
-
 .intro__image{
-    background-color: #FFEB00;
+    padding: 20px
 }
 
 .image__logo{
-    position: relative;
-    width: 320px;
-    margin-top: 20px;
+    max-width: 100%;
 }
 
 
-.features__icon{
-    width: 60px;
+.intro__text{
+    margin: auto;
+    width: 80vw;
+}
+
+.text__title{
+    font-size: 2rem;
+}
+.text__title--red{
+    font-size: 2rem;
+    color: var(--red);
+}
+
+.text__description{
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.intro__button{
+    background-color: var(--red);
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.intro__button a{   
+    color: white;
+    font-weight: 500;
+    
 }
