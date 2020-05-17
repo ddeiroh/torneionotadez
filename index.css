@@ -73,3 +73,26 @@ body{
     font-weight: 500;
     
 }
+
+.ranking__title{
+    font-size: 1.5rem;
+    
+}
+
+.ranking__description{
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.ranking__buttons button{
+    background: none;
+    border: none;
+}
+
+.ranking__buttons .button::after{
+    content: '';
+    border-bottom: 3px solid var(--golden-yellow);
+    display: block;
+    padding: 3px;
+}
+
