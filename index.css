@@ -96,3 +96,63 @@ body{
     padding: 3px;
 }
 
+.features__title{
+    font-size: 1.5rem; 
+}
+
+.features__description{
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.features__title--box{
+    font-size: .975rem; 
+}
+
+.features__subtitle{
+    font-size: .9rem;
+}
+
+.features__box{
+    display: inline-block;
+    margin: 0 auto;
+    width: 220px;
+    height: 250px;
+    box-shadow: 1px 1px 5px -1px var(--cinza-25);
+    border-radius: 5px;
+    position: relative;
+    margin: 20px;
+    padding-top: 15px;
+}
+
+.features__button{
+    width: 200px;
+    left: 10px;
+    position: absolute;
+    bottom: 15px;
+    background-color: var(--red);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.features__button a{
+    font-size: .975rem;
+    color: white;
+    font-weight: 500;
+}
+
+.features__button::before{
+    content: '';
+    background: url(/images/bg-dots.svg) no-repeat;
+    width: 210px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+.features__icon{
+    width: 70px;
+}
