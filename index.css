@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 :root{
-    --lucky-point: #2b2f48;
-    --cinza-50: #4F4F4F;
-    --cinza-25: #8f8f8f;
-    --red: #FF1212; 
-    --golden-yellow: #FFEB00;
-    --red-speech: #CC1111;
-    --marron: #7F0A0A;
+    --preto: #000000;
+    --vermelho: #EB5757; 
+    --amarelo: #FFEB00;
+    --cinza-100: #333333;
+    --cinza-25: #BDBDBD;
+    
 }
 
 *{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
