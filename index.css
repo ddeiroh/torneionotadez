@@ -3,10 +3,9 @@
 :root{
     --preto: #000000;
     --vermelho: #EB5757; 
-    --amarelo: #FFEB00;
+    --amarelo: #FFD700;
     --cinza-100: #333333;
     --cinza-25: #BDBDBD;
-    
 }
 
 *{
@@ -16,4 +15,50 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: center;
+}
+
+.introducao{
+    background-color: var(--amarelo);
+}
+
+.introducao img{
+    width: 327px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.botao{
+    width: 205px;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--vermelho);
+    box-shadow: 4px 4px 5px rgba(0,0,0,.25);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.topico:nth-child(2){
+    background-color: white;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.titulo .vermelho{
+    color: var(--vermelho);
+    font-size: inherit;
+}
+
+.paragrafo{
+    margin: 20px;
+    font-size: 1.20rem;
+    padding: 15px;
+    line-height: 1.4;
 }
