@@ -19,6 +19,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 .introducao{
@@ -155,6 +156,13 @@ section:not(:nth-child(1)), article{
     border-radius: 50%;
     position: relative;
     border: 5px solid var(--amarelo);
+    display: flex;
+}
+
+.melhores ion-icon{
+    font-size: 10rem;
+    align-self: center;
+    z-index: 1;
 }
 
 .melhores:before{
@@ -164,9 +172,10 @@ section:not(:nth-child(1)), article{
     height: 30px;
     background-color: var(--cinza-100);
     border-radius: 50%;
-    right: 1px;
+    right: -1px;
     color: white;
     line-height: 1.8;
+    z-index: 10;
 }
 
 .melhores-2{
