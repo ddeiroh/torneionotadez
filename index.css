@@ -8,6 +8,10 @@
     --cinza-25: #BDBDBD;
 }
 
+body{
+    text-align: center;
+}
+
 *{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
@@ -15,11 +19,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 .introducao{
     background-color: var(--amarelo);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .introducao img{
@@ -34,7 +41,6 @@
 
 .titulo{
     font-size: 40px;
-    text-align: center;
     padding-top: 40px;
 }
 
@@ -125,7 +131,7 @@ section:not(:nth-child(1)), article{
     height: 30px;
     background-color: var(--cinza-100);
     border-radius: 50%;
-    left: 60px;
+    right: 1px;
     color: white;
     line-height: 1.8;
 }
@@ -208,4 +214,61 @@ section:not(:nth-child(1)), article{
     width: 40px;
     height: 40px;
     padding: 10px;
+}
+
+@media screen and (min-width: 1280px){
+    .introducao{
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .arte{
+        order: 2;
+    }
+
+    .topico:nth-child(2){
+        background-color: white;
+        order: 1;
+        background-color: inherit;
+        flex-basis: 700px;
+    }
+
+    .titulo-2{
+        font-size: 2rem;
+    }
+
+    .titulo-2 ~ .paragrafo{
+        width: 600px;
+        margin: 30px auto;
+        font-size: 1.4rem;
+    }
+
+    section:not(:nth-child(1)){
+        text-align: center;
+        
+    }
+    .slider{
+        margin: auto;
+        width: 600px;
+        height: 450px;
+    }
+    .melhores{
+        width: 150px;
+        height: 150px;
+    }
+
+    .melhores:before{
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+        right: 1px;
+        line-height: 2.2;
+    }
+
+    .melhores-2{
+        transform: translateY(-100%);
+    }
+
+
 }
