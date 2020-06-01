@@ -187,3 +187,29 @@ section:not(:nth-child(1)), article{
     padding: 5px;
 }
 
+.rodape{
+    color: white;
+    padding: 20px 0;
+    height: 300px;
+    background-color: var(--preto);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-prepara{
+    width: 176px;
+    height: 114px;
+}
+
+.rodape div{
+    width: 125px;
+
+}
+
+.icone-social{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
