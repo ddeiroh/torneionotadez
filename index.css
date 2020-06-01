@@ -191,14 +191,17 @@ section:not(:nth-child(1)), article{
     align-items: center;
 }
 
+.rodape a{
+    color: white;
+}
+
 .logo-prepara{
     width: 176px;
     height: 114px;
 }
 
 .rodape div{
-    width: 125px;
-
+    width: 200px;
 }
 
 .icone-social{
