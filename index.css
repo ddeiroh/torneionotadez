@@ -96,6 +96,34 @@ section:not(:nth-child(1)), article{
     height: 37px;
 }
 
+.posicao-div{
+    width: 350px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin: 10px auto;
+    background-color: var(--cinza-25);
+    
+}
+
+.posicao{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--cinza-100);
+}
+
+.nome{
+    font-weight: 700;
+    padding: 5px 0;
+}
+
 .simples{
     background-color: transparent;
     border: 1px solid;
@@ -105,6 +133,11 @@ section:not(:nth-child(1)), article{
 .slider{
     height: 300px;
     position: relative;
+}
+
+.slider-tops{
+    height: inherit;
+    overflow-y: scroll;
 }
 
 .melhores-div{
@@ -214,6 +247,10 @@ section:not(:nth-child(1)), article{
     width: 40px;
     height: 40px;
     padding: 10px;
+}
+
+.escondido{
+    display: none;
 }
 
 @media screen and (min-width: 1280px){
