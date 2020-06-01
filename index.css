@@ -81,11 +81,21 @@ section:not(:nth-child(1)), article{
     margin: auto;
 }
 
+.botao-fino{
+    height: 37px;
+}
+
 .botao-liso{
     background-color: white;
     border: none;
     padding: 10px;
     font-size: 1.1rem;
+}
+
+.botao-liso:before{
+    content: "";
+    background-image: "images/bg-dots.svg";
+    position: absolute;
 }
 
 .selecionado{
@@ -142,3 +152,38 @@ section:not(:nth-child(1)), article{
 .melhores:nth-child(3):before{
     content: "3°";
 }
+
+.ferramentas{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.programa{
+    width: 236px;
+    height: 341px;
+    box-shadow: 1px 2px 10px -2px rgb(130, 130, 130,.4);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone{
+    width: 80px;
+    height: 80px;
+}
+
+.titulo-3{
+    font-size: 1.6rem;
+}
+
+.subtitulo{
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 100;
+    color: var(--cinza-25);
+    padding: 5px;
+}
+
