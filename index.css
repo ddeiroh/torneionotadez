@@ -23,6 +23,7 @@ body{
 }
 
 .introducao{
+    padding: 10px 0;
     background-color: var(--amarelo);
     display: flex;
     flex-flow: column nowrap;
@@ -42,7 +43,7 @@ body{
 
 .titulo{
     font-size: 40px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .titulo-2{
@@ -85,8 +86,11 @@ section:not(:nth-child(1)), article{
 
 .botoes-ranking{
     display: flex;
-    width: 250px;
-    margin: auto;
+    justify-content: center;
+}
+
+.botoes-ranking .botao{
+    width: 100px;
 }
 
 .botoes-ranking ion-icon{
@@ -106,7 +110,6 @@ section:not(:nth-child(1)), article{
     height: 60px;
     margin: 10px auto;
     background-color: var(--cinza-25);
-    
 }
 
 .posicao{
@@ -125,11 +128,11 @@ section:not(:nth-child(1)), article{
     padding: 5px 0;
 }
 
-.simples{
+/*.selecionar{
     background-color: transparent;
     border: 1px solid;
     color: var(--vermelho);
-}
+}*/
 
 .slider{
     height: 200px;
@@ -150,7 +153,6 @@ section:not(:nth-child(1)), article{
 }
 
 .melhores{
-    background-color: var(--cinza-25);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -175,7 +177,7 @@ section:not(:nth-child(1)), article{
     right: -1px;
     color: white;
     line-height: 1.8;
-    z-index: 10;
+    z-index: 2;
 }
 
 .melhores-2{

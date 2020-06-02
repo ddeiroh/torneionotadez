@@ -42,9 +42,11 @@
         </div>
 
         <div class="botoes-ranking">
-            <button class="botao"><ion-icon name="arrow-undo"></ion-icon>Top 3</button>
-            <button class="botao simples">Top 10<ion-icon name="arrow-redo"></ion-icon></button>
+            <a href="#ranking" class="botao-ranking"><button class="botao"><ion-icon name="arrow-undo"></ion-icon>Top 3</button></a>
+            <a href="#ranking" class="botao-ranking"><button class="botao">Top 10<ion-icon name="arrow-redo"></ion-icon></button></a>
         </div>
+
+        <div id="ranking"></div>
 
         <div>
             <h2 class="titulo-2">Semana <span class="vermelho">2</span></h2>
@@ -163,7 +165,7 @@
                     <h3 class="titulo-3">Team Viewer</h3>
                     <p class="subtitulo">Acesso remoto</p>
                 </div>
-                <button class="botao botao-fino">Acessar o programa</button>
+                <button class="botao botao-fino botao-viewer">Acessar o programa</button>
             </article>
 
             <article class="programa">
@@ -196,5 +198,7 @@
         <p class="endereco">Rua Thomaz Gonzaga, 226 - Pernambués, Salvador - BA, 41100-000</p>
     </footer>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="mudarRanking.js"></script>
+    <script src="checaMobile.js"></script>
 </body>
 </html>
