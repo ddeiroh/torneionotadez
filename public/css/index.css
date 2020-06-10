@@ -167,19 +167,19 @@ section:not(:nth-child(1)), article{
 }
 
 .melhores-1{
-    background-image: url(images/top3/andressa.jpeg);
+    background-image: url(../images/top3/andressa.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .melhores-2{
-    background-image: url(images/top3/rafaela.jpeg);
+    background-image: url(../images/top3/rafaela.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .melhores-3{
-    background-image: url(images/top3/barbara.jpeg);
+    background-image: url(../images/top3/barbara.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
