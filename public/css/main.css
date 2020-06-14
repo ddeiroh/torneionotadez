@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
+@import "components.css";
+@import "ranking.css";
+@import "introducao.css"; 
 
 :root{
     --preto: #000000;
-    --vermelho: #EB5757; 
+    --vermelho: #EB5757;
     --amarelo: #FFD700;
     --cinza-100: #333333;
     --cinza-25: #BDBDBD;
@@ -20,21 +23,6 @@ body{
     margin: 0;
     box-sizing: border-box;
     outline: none;
-}
-
-.introducao{
-    padding: 10px 0;
-    background-color: var(--amarelo);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.introducao img{
-    width: 327px;
-    max-width: 100%;
-    margin-top: 20px;
 }
 
 .topico:nth-child(2){
@@ -66,35 +54,8 @@ section:not(:nth-child(1)), article{
     line-height: 1.4;
 }
 
-.botao{
-    width: 200px;
-    height: 60px;
-    border-radius: 7px;
-    border: none;
-    background-color: var(--vermelho);
-    box-shadow: 4px 4px 5px rgba(0,0,0,.25);
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
-    margin: 20px 10px;
-    transition: .3s ease-out;
-}
-
 .botao:hover{
     box-shadow: none;
-}
-
-.botoes-ranking{
-    display: flex;
-    justify-content: center;
-}
-
-.botoes-ranking .botao{
-    width: 100px;
-}
-
-.botoes-ranking ion-icon{
-    padding: 0 5px;
 }
 
 .botao-fino{
@@ -110,114 +71,6 @@ section:not(:nth-child(1)), article{
     height: 60px;
     margin: 10px auto;
     background-color: var(--cinza-25);
-}
-
-.posicao{
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 700;
-    line-height: 2;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--cinza-100);
-}
-
-.nome{
-    font-weight: 700;
-    padding: 5px 0;
-}
-
-/*.selecionar{
-    background-color: transparent;
-    border: 1px solid;
-    color: var(--vermelho);
-}*/
-
-.slider{
-    height: 200px;
-    position: relative;
-}
-
-.slider-tops{
-    height: inherit;
-    overflow-y: scroll;
-}
-
-.melhores-div{
-    width: 100%;
-    display: flex;
-    position: absolute;
-    bottom: 20px;
-    justify-content: space-around;
-}
-
-.melhores{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    border: 5px solid var(--amarelo);
-    display: flex;
-}
-
-.melhores img{
-    border-radius: inherit;
-    
-}
-
-.melhores-1{
-    background-image: url(../images/top3/andressa.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.melhores-2{
-    background-image: url(../images/top3/rafaela.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.melhores-3{
-    background-image: url(../images/top3/anavitoria.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-}
-
-/*.melhores ion-icon{
-    font-size: 10rem;
-    align-self: center;
-    z-index: 1;
-}*/
-
-.melhores:before{
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: var(--cinza-100);
-    border-radius: 50%;
-    right: -1px;
-    color: white;
-    line-height: 1.8;
-    z-index: 2;
-}
-
-.melhores-2{
-    transform: translateY(-70%);
-}
-
-.melhores:nth-child(1):before{
-    content: "2°";
-}
-
-.melhores:nth-child(2):before{
-    content: "1°";
-}
-
-.melhores:nth-child(3):before{
-    content: "3°";
 }
 
 .programas-info{

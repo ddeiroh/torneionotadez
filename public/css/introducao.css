@@ -1,0 +1,14 @@
+.introducao{
+    padding: 10px 0;
+    background-color: var(--amarelo);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao img{
+    width: 327px;
+    max-width: 100%;
+    margin-top: 20px;
+}

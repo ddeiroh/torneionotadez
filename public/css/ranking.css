@@ -1,0 +1,100 @@
+.slider{
+    height: 200px;
+    position: relative;
+}
+
+.slider-tops{
+    height: inherit;
+    overflow-y: scroll;
+}
+
+.melhores-div{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    justify-content: space-around;
+}
+
+.melhores{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid var(--amarelo);
+    display: flex;
+}
+
+.melhores img{
+    border-radius: inherit;
+    
+}
+
+.melhores-1{
+    background-image: url(../images/top3/andressa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.melhores-2{
+    background-image: url(../images/top3/rafaela.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.melhores-3{
+    background-image: url(../images/top3/anavitoria.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+/*.melhores ion-icon{
+    font-size: 10rem;
+    align-self: center;
+    z-index: 1;
+}*/
+
+.melhores:before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: var(--cinza-100);
+    border-radius: 50%;
+    right: -1px;
+    color: white;
+    line-height: 1.8;
+    z-index: 2;
+}
+
+.melhores-2{
+    transform: translateY(-70%);
+}
+
+.melhores:nth-child(1):before{
+    content: "2°";
+}
+
+.melhores:nth-child(2):before{
+    content: "1°";
+}
+
+.melhores:nth-child(3):before{
+    content: "3°";
+}
+
+.botoes-ranking{
+    display: flex;
+    justify-content: center;
+}
+
+
+.botoes-ranking ion-icon{
+    padding: 0 5px;
+}
+
+.nome{
+    font-weight: 700;
+    padding: 5px 0;
+}
