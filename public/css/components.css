@@ -12,8 +12,13 @@
     transition: .3s ease-out;
 }
 
-.botoes-ranking .botao{
-    width: 100px;
+.botoes-ranking{
+    background-color: white;
+    border: 2px solid var(--vermelho);
+    color: var(--vermelho);
+    font-size: 1.2rem;
+    line-height: 2.6;
+    width: 120px;
 }
 
 .posicao{
