@@ -55,25 +55,6 @@ section:not(:nth-child(1)), article{
     line-height: 1.4;
 }
 
-.botao:hover{
-    box-shadow: none;
-}
-
-.botao-fino{
-    height: 37px;
-}
-
-.posicao-div{
-    width: 350px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-    margin: 10px auto;
-    background-color: var(--cinza-25);
-}
-
 .programas-info{
     display: flex;
     flex-flow: column nowrap;

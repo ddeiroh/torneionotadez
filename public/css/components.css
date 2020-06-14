@@ -12,6 +12,10 @@
     transition: .3s ease-out;
 }
 
+.botao:hover{
+    box-shadow: none;
+}
+
 .botoes-ranking{
     background-color: white;
     border: 2px solid var(--vermelho);
@@ -21,13 +25,6 @@
     width: 120px;
 }
 
-.posicao{
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 700;
-    line-height: 2;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: var(--cinza-100);
+.botao-fino{
+    height: 37px;
 }
