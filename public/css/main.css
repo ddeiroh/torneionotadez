@@ -4,6 +4,7 @@
 @import "introducao.css";
 @import "header.css";
 @import "tools.css";
+@import "footer.css";
 
 :root{
     --preto: #000000;
@@ -20,11 +21,14 @@ body{
 *{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    text-decoration: none;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: none;
+}
+
+a{
+text-decoration: none;
 }
 
 .topico:nth-child(2){
@@ -66,36 +70,6 @@ section:not(:nth-child(1)), article{
     font-weight: 100;
     color: var(--cinza-25);
     padding: 5px;
-}
-
-.rodape{
-    color: white;
-    padding: 20px 0;
-    height: 300px;
-    background-color: var(--preto);
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.rodape a{
-    color: white;
-}
-
-.logo-prepara{
-    width: 176px;
-    height: 114px;
-}
-
-.rodape div{
-    width: 200px;
-}
-
-.icone-social{
-    width: 40px;
-    height: 40px;
-    padding: 10px;
 }
 
 .escondido{
