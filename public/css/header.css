@@ -1,0 +1,21 @@
+.header{
+    background-color: var(--preto);
+}
+
+.navigation{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a{
+    transition: ease-out .3s;
+    color: white;
+    padding: 10px;
+}
+
+.navigation a:hover{
+    color: black;
+    background-color: white;
+}
