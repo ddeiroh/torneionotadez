@@ -50,28 +50,12 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .points ion-icon{
     vertical-align: middle;
-}
-
-.melhores-1{
-    background-image: url(../images/top3/rafaela.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.melhores-2{
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.melhores-3{
-    background-image: url(../images/top3/anavitoria.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
 }
 
 .melhores + p{
