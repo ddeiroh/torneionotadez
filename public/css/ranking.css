@@ -1,3 +1,7 @@
+.slider{
+    margin: 50px 0;
+}
+
 .botoes-ranking-div{
     display: flex;
     justify-content: center;
@@ -76,8 +80,7 @@
     z-index: 1;
 }*/
 
-
-.botoes-ranking ion-icon{
+.botao-ranking ion-icon{
     padding: 0 5px;
 }
 
@@ -100,8 +103,14 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--cinza-25);
+    background-color: var(--cinza-100);
 }
+
+.posicao-1{background-color: #e4c05a;}
+
+.posicao-2{background-color: #c2c1cb;}
+
+.posicao-3{background-color: #b5958c;}
 
 .posicao-div{
     width: 350px;

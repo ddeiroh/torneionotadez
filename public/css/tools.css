@@ -4,6 +4,7 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+    margin: 50px;
 }
 
 .programa{
@@ -14,6 +15,7 @@
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
+    margin: 20px;
 }
 
 .icone{

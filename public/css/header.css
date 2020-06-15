@@ -1,18 +1,23 @@
 .header{
     background-color: var(--preto);
+    position: sticky;
+    z-index: 1;
+    top: 0;
 }
 
 .navigation{
-    height: 5vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .navigation a{
+    font-size: 1.1rem;
     transition: ease-out .3s;
     color: white;
     padding: 10px;
+    margin: 0 10px;
 }
 
 .navigation a:hover{

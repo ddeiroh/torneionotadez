@@ -14,55 +14,37 @@
     --cinza-25: #BDBDBD;
 }
 
-body{
-    text-align: center;
-}
+body{text-align: center;}
 
 *{
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-size: 16px;
     box-sizing: border-box;
     outline: none;
 }
 
-a{
-text-decoration: none;
-}
-
-.topico:nth-child(2){
-    background-color: white;
-}
-
-.titulo{
-    font-size: 40px;
-    padding-top: 10px;
-}
-
-.titulo-2{
-    margin-top: 30px;
-    font-size: 1.8rem;
-}
-
-.vermelho{
-    color: var(--vermelho);
-    font-size: inherit;
-}
-
-section:not(:nth-child(1)), article{
-    margin: 30px 0;
-}
+a{text-decoration: none;}
 
 .paragrafo{
-    margin: 15px 10px;
-    font-size: 1.20rem;
-    line-height: 1.4;
+    font-size: 1.3rem;
+    margin: 20px;
 }
 
-.titulo-3{
-    font-size: 1.6rem;
+.titulo-2, .titulo-2 span{
+    margin: 50px 0;
+    font-size: 2rem;
+
 }
+
+.titulo-2:nth-child(1){
+    margin-bottom: 0;
+}
+
+.titulo-3{font-size: 1.4rem;}
+
+.vermelho{color: var(--vermelho);}
 
 .subtitulo{
     font-size: 1.1rem;
