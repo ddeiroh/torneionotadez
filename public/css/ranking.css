@@ -45,9 +45,15 @@
 }
 
 .melhores-2{
-    background-image: url(../images/top3/andressa.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.melhores-3{
+    background-image: url(../images/top3/anavitoria.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
 }
 
 .melhores + p{
@@ -67,18 +73,12 @@
     color: #97c836;
 }
 
-.melhores-3{
-    background-image: url(../images/top3/anavitoria.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-}
-
-/*.melhores ion-icon{
-    font-size: 10rem;
+.melhores ion-icon{
+    font-size: 4.5rem;
+    color: #000;
     align-self: center;
     z-index: 1;
-}*/
+}
 
 .botao-ranking ion-icon{
     padding: 0 5px;
