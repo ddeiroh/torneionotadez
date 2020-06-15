@@ -2,6 +2,24 @@
     margin: 50px 0;
 }
 
+.troca-semana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.troca-semana ion-icon{
+    font-size: 2.2rem;
+    margin: 10px;
+    color: var(--vermelho);
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.troca-semana ion-icon:hover{
+    transform: scale(1.2);
+}
+
 .botoes-ranking-div{
     display: flex;
     justify-content: center;
