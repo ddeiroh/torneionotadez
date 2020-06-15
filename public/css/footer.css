@@ -34,3 +34,7 @@
 .icone-social:hover{
     transform: scale(1.2);
 }
+
+.powered{
+    padding: 10px;
+}

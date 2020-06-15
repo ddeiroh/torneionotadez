@@ -5,6 +5,7 @@
 @import "header.css";
 @import "tools.css";
 @import "footer.css";
+@import "breakpoints.css";
 
 :root{
     --preto: #000000;
@@ -29,7 +30,9 @@ a{text-decoration: none;}
 
 .paragrafo{
     font-size: 1.3rem;
-    margin: 20px;
+    margin: 20px auto;
+    padding: 0 10px;
+    line-height: 1.4;
 }
 
 .titulo-2, .titulo-2 span{
